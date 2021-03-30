@@ -119,4 +119,47 @@ let corPersonalizada = 'Vermelha';
  let corPadrao = 'Azul';
 let corPerfil = corPersonalizada || corPadrao; 
 
-console.log(corPerfil);*/ 
+console.log(corPerfil);
+  
+
+ //Condições
+// If ... else 
+
+//Se a hora estiver entre 06:00 até 12:00 : Bom dia! 
+//se estiver entre 12:00 até 18:00 : Boa tarde! 
+ 
+let hora = 10;
+if (hora > 6 && hora < 12) { 
+    console.log('bom dia¹');
+    // codigo a ser executado
+} 
+else if (hora > 12 && hora < 18){ 
+    console.log('Boa tarde'); 
+    // código a ser executado 
+} 
+else {  
+    console.log('Boa noite');
+    //codigo a ser executado 
+}
+
+//switch 
+
+let permissao; //comum,gerente,diretor 
+
+switch (permissao) { 
+    case 'comum': 
+    console.log('usuario comum'); 
+    break; // o break vai fechar a condição criada  
+    
+    case 'gerente': 
+    console.log('usuario gerente'); 
+    break;  
+     
+    case 'diretor': 
+    console.log('usuario diretor'); 
+    break; 
+    
+    default: 
+    console.log('usuario nãi reconhecido!');
+
+}*/
