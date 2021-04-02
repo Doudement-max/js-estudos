@@ -89,7 +89,7 @@ console.log('1' === 1); //vai ser falso pelo 1 ser string
 //Operadores ternário (muito importante)
 //tem um cliente. 100 premim, comum 
 let pontos = 100; 
-let tipo = pontos > 100 ? 'premim' : 'comum'; 
+let tipo = pontos > 100 ? 'premium' : 'comum'; 
  console.log (tipo) // tipo comum se for a cima de 100 e cliente premium
  
  //operadores lógicos  
