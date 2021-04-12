@@ -16,5 +16,8 @@
     "url": "https://github.com/Doudement-max/estudos-js/issues"
   },
   "homepage": "https://github.com/Doudement-max/estudos-js#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }

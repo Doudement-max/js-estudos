@@ -29,16 +29,25 @@ let i = 0;
 do { // a diferença do  para o while é que ele vai fazer no minimo uma vez e ele só vai verificar a condição.
     console.log('digitando'); 
     i++; // nunca se esqueça disso
-}while (i < 10)*/  
+}while (i < 10)
 
 const pessoa ={ 
     nome: 'pedro', 
     idade:25
-}; 
+}; */ 
+
 //key-value
-for(let chave in pessoa) {
-    console.log(chave,pessoa.nome); 
+/*for(let chave in pessoa) {
+    console.log(chave,pessoa.nome); //ou entre [''] onde tambem pode ser defindo o nome
 
 } 
 
-const cores = ['Vermelho']
+const cores = ['Vermelho','Blue','Verde'] 
+
+for (let indice in cores){
+    console.log(cores,[indice])
+}*/ 
+
+for(let cor of cores){ 
+    console.log(cor);
+}
