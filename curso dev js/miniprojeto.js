@@ -1,4 +1,5 @@
-let a = 'vermelho'; 
+ //primeiro miniprojeto apenas como identificar uma cor.
+ let a = 'vermelho'; 
 let b = 'azul'; 
  
 let c = a;
