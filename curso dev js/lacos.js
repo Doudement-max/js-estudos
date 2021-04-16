@@ -8,7 +8,7 @@
 
 //exemplo for 
  
-/*for(let i = 1; i <= 5;i++) {
+for(let i = 1; i <= 5;i++) {
     if(i % 2 !== 0){ 
         console.log(i);
     }
@@ -34,10 +34,10 @@ do { // a diferença do  para o while é que ele vai fazer no minimo uma vez e e
 const pessoa ={ 
     nome: 'pedro', 
     idade:25
-}; */ 
+};  
 
 //key-value
-/*for(let chave in pessoa) {
+for(let chave in pessoa) {
     console.log(chave,pessoa.nome); //ou entre [''] onde tambem pode ser defindo o nome
 
 } 
@@ -46,7 +46,7 @@ const cores = ['Vermelho','Blue','Verde']
 
 for (let indice in cores){
     console.log(cores,[indice])
-}*/ 
+}
 
 for(let cor of cores){ 
     console.log(cor);
