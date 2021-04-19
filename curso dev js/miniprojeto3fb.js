@@ -12,9 +12,7 @@ console.log(resultado)
 function fizzBuzz(entrada){
 
 }*/
-  
-let valido; 
-let invalido;
+
 
 const resultado = fizzBuzz(15); 
 console.log(resultado); 
